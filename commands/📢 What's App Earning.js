@@ -16,6 +16,12 @@
   group: 
 CMD*/
 
+let banStat = Bot.getProperty("" + user.telegramid + "?Ban");
+if (banStat == "ban") {
+  Bot.sendMessage("*You're Banned From Using The Bot ❌*", { parse_mode: "Markdown" });
+  return;
+}
+
 if (request && request.data) {
   Api.deleteMessage({
     chat_id: request.message.chat.id,
@@ -26,7 +32,7 @@ if (request && request.data) {
 var type = Bot.getProperty("wa_type");
 
 if (!type) {
-  Bot.sendMessage("⚠️ এখনো কোনো content set করা হয়নি!");
+  Bot.sendMessage("⚠️ এখনো কোনো content set করা হয়নি!");
   return;
 }
 

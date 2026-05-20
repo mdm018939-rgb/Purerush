@@ -57,15 +57,13 @@ for (var ind in items) {
   var medal = medals[ind] || "🔹"
   msg += medal + " " + String(parseInt(ind) + 1) + ". " +
     prop.user.first_name +
-    " — " + String(prop.value) + " রেফার\n"
+    " " + String(prop.value) + " রেফার" +
+    " (`" + prop.user.telegramid + "`)\n"
 }
+
+msg += "\n🎁 *প্রতি ৭ দিনে টপ ১০ জনকে বিশেষ পুরস্কার দেওয়া হবে!*"
 
 Api.sendMessage({
   text: msg,
-  parse_mode: "Markdown",
-  reply_markup: {
-    inline_keyboard: [
-      [{ text: "🔙 Back", callback_data: "/mainmenu" }]
-    ]
-  }
+  parse_mode: "Markdown"
 })
