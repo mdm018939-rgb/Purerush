@@ -48,7 +48,7 @@ Api.sendMessage({
     "✨ <b>রেফার ও আয় সিস্টেম</b> ✨\n\n" +
     "👥 <b>Total Refers:</b> " + RefLib.getRefCount() + " জন\n\n" +
     "🔗 <b>Your Invite Link:</b>\n" + invLink + "\n\n" +
-    "💰 <b>প্রতি রেফারে " + perref + " টাকা</b>\n" +
+    "💰 <b>প্রতি সফল রেফারে " + perref + " টাকা</b>\n" +
     "🏧 <b>" + minwith + " টাকা হলে উত্তলন করা যাবে!</b>",
   parse_mode: "html",
   disable_web_page_preview: true,
