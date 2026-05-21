@@ -16,16 +16,6 @@
   group: 
 CMD*/
 
-/*CMD
-  command: 🏆  Leaderboard
-  help: 
-  need_reply: false
-  auto_retry_time: 
-  folder: 
-  aliases: 
-  group: 
-CMD*/
-
 let banStat = Bot.getProperty("" + user.telegramid + "?Ban");
 if (banStat == "ban") {
   Bot.sendMessage("*You're Banned From Using The Bot ❌*", { parse_mode: "Markdown" });
@@ -61,9 +51,15 @@ for (var ind in items) {
     " (`" + prop.user.telegramid + "`)\n"
 }
 
-msg += "\n🎁 *প্রতি ৭ দিনে টপ ১০ জনকে বিশেষ পুরস্কার দেওয়া হবে!*"
-
 Api.sendMessage({
   text: msg,
-  parse_mode: "Markdown"
+  parse_mode: "Markdown",
+  reply_markup: {
+    inline_keyboard: [
+      [
+        { text: "🎁 পুরস্কার", callback_data: "/reward_info" },
+        { text: "🔙 Back", callback_data: "/mainmenu" }
+      ]
+    ]
+  }
 })
