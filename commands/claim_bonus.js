@@ -67,7 +67,7 @@ if (params) {
 
         // নতুন ফরম্যাটে মেসেজ পাঠানো
         Bot.sendMessage(
-            "💰 *আপনার Account এ " + amount + " টাকা যোগ করা হয়েছে!*\n\n" +
+            "💰 *আপনার একাউন্টে " + amount + " টাকা যোগ করা হয়েছে!*\n\n" +
             "💰 *Old Balance:* " + oldBalance.toFixed(2) + " টাকা\n" +
             "💳 *New Balance:* " + newBalance.toFixed(2) + " টাকা",
             { parse_mode: "Markdown" }

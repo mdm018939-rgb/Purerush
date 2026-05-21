@@ -78,7 +78,7 @@ if (
       "💳  Check Balance      ,   👥  Invite & Earn\n" +
       "💸 Withdraw      ,   💳 Set Wallet\n" +
       "🏆  Leaderboard      ,   ❓  Help\n" +
-      "📢 What's App Earning\n" +
+      "🔥 Hot Offers\n" +
       "🛠  Admin Panel",
       "🏠 *Welcome Back " + user.first_name + "!*\n\n" +
       "✨ _Main Menu is ready!_\n" +
@@ -90,7 +90,7 @@ if (
       "💳  Check Balance      ,   👥  Invite & Earn\n" +
       "💸 Withdraw      ,   💳 Set Wallet\n" +
       "🏆  Leaderboard      ,   ❓  Help\n" +
-      "📢 What's App Earning",
+      "🔥 Hot Offers",
       "🏠 *Welcome Back " + user.first_name + "!*\n\n" +
       "✨ _Main Menu is ready!_\n" +
       "👇 *Pick an option to continue:*",

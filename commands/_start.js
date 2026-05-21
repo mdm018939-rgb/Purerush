@@ -26,6 +26,10 @@ CMD*/
   group: 
 CMD*/
 
+if (chat.chat_type != "private") {
+  return;
+}
+
 // Ban check
 let banStat = Bot.getProperty("" + user.telegramid + "?Ban");
 if (banStat == "ban") {
@@ -94,7 +98,7 @@ if (!User.getProperty("UserDone")) {
   stat.add(1)
 
   Api.sendMessage({
-    chat_id: 8289660476,
+    chat_id: 6625019627,
     text:
       "➕ <b>New User Notification</b> ➕\n\n" +
       "👤 <b>User:</b> <a href='tg://user?id=" + user.telegramid + "'>" + user.first_name + "</a>\n" +

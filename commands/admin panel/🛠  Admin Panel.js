@@ -43,7 +43,7 @@ if (request && request.data) {
 Bot.sendKeyboard(
   "💰 Bonus Set      ,   💸 Min Withdraw Set\n" +
   "⬆️ Max Withdraw Set      ,   ➖ Charge Set\n" +
-  "📢 What's App Set      ,   📋 Withdraw Requests\n" +
+  "🔥 Hot Offers Set      ,   📋 Withdraw Requests\n" +
   "👥 Total Users      ,   📣 Broadcast\n" +
   "🚫 Ban User      ,   ✅ Unban User\n" +
   "🔙 Main Menu",
