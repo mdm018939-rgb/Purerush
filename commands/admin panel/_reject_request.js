@@ -58,10 +58,10 @@ if (request && request.message) {
 Api.sendMessage({
   chat_id: req.uid,
   text:
-    "❌ <b>টেকনিক্যাল সমস্যার জন্য আপনার Withdraw Rejected হয়েছে!</b>\n\n" +
+    "❌ <b>কোন এক সমস্যার কারনে আপনার উত্তলন অটোমেটিক রিজেক্ট হয়েছে!</b>\n\n" +
     "💰 <b>Amount:</b> " + req.amount + " টাকা\n" +
     "💳 <b>মাধ্যম:</b> " + req.walletType + "\n\n" +
-    "♻️ আপনার balance ফেরত দেওয়া হয়েছে।",
+    "♻️ আপনার balance ফেরত দেওয়া হয়েছে। দয়া করে আবার চেষ্টা করুন!",
   parse_mode: "html"
 })
 

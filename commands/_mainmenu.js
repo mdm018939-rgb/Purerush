@@ -82,7 +82,9 @@ if (
       "🛠  Admin Panel",
       "🏠 *Welcome Back " + user.first_name + "!*\n\n" +
       "✨ _Main Menu is ready!_\n" +
-      "👇 *Pick an option to continue:*",
+      "👇 *Pick an option to continue:*\n\n" +
+      "⚠️ *বিশেষ নোটিশ:*\n" +
+      "_বটের ভিতরে আসা জুয়ার অ্যাড গুলো থেকে বিরত থাকুন!_",
       { parse_mode: "Markdown" }
     )
   } else {
@@ -93,7 +95,9 @@ if (
       "🔥 Hot Offers",
       "🏠 *Welcome Back " + user.first_name + "!*\n\n" +
       "✨ _Main Menu is ready!_\n" +
-      "👇 *Pick an option to continue:*",
+      "👇 *Pick an option to continue:*\n\n" +
+      "⚠️ *বিশেষ নোটিশ:*\n" +
+      "_বটের ভিতরে আসা জুয়ার অ্যাড গুলো থেকে বিরত থাকুন!_",
       { parse_mode: "Markdown" }
     )
   }

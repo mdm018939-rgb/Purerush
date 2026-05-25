@@ -64,7 +64,7 @@ function attractedByUser(refUser) {
   Api.sendMessage({
     chat_id: refUser.telegramid,
     text:
-      "<b>🔋 You Got a New Referral:</b> " +
+      "<b>🔋 আপনি একটি নতুন রেফারেল পেয়েছেন:</b> " +
       "<a href='tg://user?id=" + user.telegramid + "'>User</a>\n" +
       "<i>💡 Reward after joining all channels</i>",
     parse_mode: "html"

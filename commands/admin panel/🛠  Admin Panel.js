@@ -46,6 +46,7 @@ Bot.sendKeyboard(
   "🔥 Hot Offers Set      ,   📋 Withdraw Requests\n" +
   "👥 Total Users      ,   📣 Broadcast\n" +
   "🚫 Ban User      ,   ✅ Unban User\n" +
+  "💰 Ck User Balance      ,   ✂️ Cut Balance\n" +
   "🔙 Main Menu",
   "🛠 *Admin Panel*\n\n👇 একটা অপশন সিলেক্ট করুন:",
   { parse_mode: "Markdown" }
