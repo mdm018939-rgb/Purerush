@@ -50,7 +50,7 @@ Api.sendMessage({
     "🔹 💸 *Withdraw* — টাকা উত্তোলন করুন\n" +
     "🔹 💳 *Set Wallet* — পেমেন্ট নাম্বার সেট করুন\n" +
     "🔹 🏆 *Leaderboard* — টপ রেফারার দেখুন\n" +
-    "🔹 📢 *What's App Earning* — আলাদা আয়\n\n" +
+    "🔹 🔥 *Hot Offers* — মানেই নতুন কিছু\n\n" +
     "💰 *আপনার বর্তমান Balance:* " + balance + " টাকা\n" +
     "✅ *আপনার মোট Withdraw:* " + totalPayouts + " টাকা\n\n" +
     "❓ সমস্যা হলে গ্রুপে যোগাযোগ করুন।",
